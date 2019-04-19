@@ -25,6 +25,10 @@ public class Test {
         user.setName("mine");
         User save = userRepo.save(user);
         System.out.println(save);
+
+        save.setName("oooo");
+        User save1 = userRepo.save(save);
+        System.out.println(save1);
         return Result.success("ahhaaha");
     }
 }
