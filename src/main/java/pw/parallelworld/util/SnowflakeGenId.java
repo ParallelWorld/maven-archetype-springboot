@@ -1,4 +1,4 @@
-package pw.parallelworld.archetype.util;
+package pw.parallelworld.util;
 
 import org.hibernate.HibernateException;
 import org.hibernate.engine.spi.SharedSessionContractImplementor;

@@ -1,4 +1,4 @@
-package pw.parallelworld.archetype.plugin;
+package pw.parallelworld.plugin;
 
 import org.springframework.boot.autoconfigure.web.ErrorProperties;
 import org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController;
@@ -7,7 +7,7 @@ import org.springframework.cglib.beans.BeanMap;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.servlet.ModelAndView;
-import pw.parallelworld.archetype.core.Result;
+import pw.parallelworld.core.Result;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

@@ -1,4 +1,4 @@
-package pw.parallelworld.archetype.core;
+package pw.parallelworld.core;
 
 import lombok.Data;
 

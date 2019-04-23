@@ -1,4 +1,4 @@
-package pw.parallelworld.archetype.entity;
+package pw.parallelworld.entity;
 
 import lombok.Data;
 import org.hibernate.annotations.CreationTimestamp;
@@ -16,7 +16,7 @@ public abstract class BaseEntity {
 
     @Id
     @GeneratedValue(generator = "snowflake")
-    @GenericGenerator(name = "snowflake", strategy = "pw.parallelworld.archetype.util.SnowflakeGenId")
+    @GenericGenerator(name = "snowflake", strategy = "SnowflakeGenId")
     private long id;
 
     @CreationTimestamp

@@ -1,7 +1,7 @@
-package pw.parallelworld.archetype.dao;
+package pw.parallelworld.dao;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import pw.parallelworld.archetype.entity.User;
+import pw.parallelworld.entity.User;
 
 public interface UserRepo extends JpaRepository<User, Long> {
 

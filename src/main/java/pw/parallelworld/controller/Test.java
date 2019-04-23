@@ -1,12 +1,12 @@
-package pw.parallelworld.archetype.controller;
+package pw.parallelworld.controller;
 
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import pw.parallelworld.archetype.core.Result;
-import pw.parallelworld.archetype.dao.UserRepo;
-import pw.parallelworld.archetype.entity.User;
+import pw.parallelworld.core.Result;
+import pw.parallelworld.dao.UserRepo;
+import pw.parallelworld.entity.User;
 
 import javax.annotation.Resource;
 

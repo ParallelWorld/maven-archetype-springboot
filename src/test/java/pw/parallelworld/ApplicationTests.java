@@ -1,4 +1,4 @@
-package pw.parallelworld.archetype;
+package pw.parallelworld;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
