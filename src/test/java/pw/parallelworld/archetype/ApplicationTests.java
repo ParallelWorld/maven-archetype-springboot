@@ -11,6 +11,8 @@ public class ApplicationTests {
 
     @Test
     public void contextLoads() {
+        String ss = "abc\nabc\rxx";
+        System.out.println(ss);
     }
 
 }
